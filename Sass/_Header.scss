@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  padding: 1.5rem 4rem;
+  position: fixed;
+  background-color: $black-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    a {
+      color: $white-color;
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      color: $white-color;
+      margin: 0 0.75rem;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      font-weight: 500;
+      a {
+        color: $white-color;
+        transition: 400ms ease-out;
+      }
+      a:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.overview {
+  width: 100%;
+  background-color: $white-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem;
+  .left,
+  .right {
+    width: 50%;
+  }
+  .right {
+    img {
+      width: 100%;
+    }
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: justify;
+    h1,
+    p {
+      line-height: 150%;
+    }
+    p {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      text-align: start;
+    }
+  }
+}
